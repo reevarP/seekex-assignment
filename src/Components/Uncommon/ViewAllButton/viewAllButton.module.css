@@ -1,0 +1,8 @@
+.viewAllButton {
+  border: none;
+  width: 10rem;
+  color: #ffffff;
+  background-color: #770015;
+  height: 2.5rem;
+  cursor: pointer;
+}

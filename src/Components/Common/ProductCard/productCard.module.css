@@ -1,0 +1,55 @@
+.productCard {
+  width: 25%;
+  overflow: hidden;
+  padding: 0.5rem;
+}
+
+.imageContainer {
+  height: 20rem;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+.imageContainer:hover .productImage {
+  filter: blur(3px);
+  transition: all;
+  transition-duration: 300ms;
+}
+.blurDiv {
+  display: none;
+}
+.imageContainer:hover .blurDiv {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.eachSizeBox {
+  border: 1px solid #e6e6e6;
+  height: 1.8rem;
+  width: 1.8rem;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+.eachSizeBox:hover {
+  background-color: rgb(177, 246, 255);
+  transition: all;
+  transition-duration: 300ms;
+}

@@ -1,0 +1,16 @@
+.footer {
+  padding: 0 6rem 2rem 6rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contentAndSocial {
+  width: 30%;
+}
+
+.eachFooterLink {
+  cursor: pointer;
+}
+.eachFooterLink:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,113 @@
+.mainSection {
+  width: 100%;
+}
+.mainSection img {
+  width: 100%;
+}
+
+.midSection {
+  padding: 2rem 3rem;
+}
+
+.content {
+  overflow-y: scroll;
+  height: calc(100vh - 7rem);
+}
+
+.circleImages {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.circleImagesContainer {
+  min-width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.circleImagesContainer .eachImageSection {
+  width: 15%;
+}
+
+.inorganicSection {
+  margin-bottom: 1rem;
+}
+
+.hurryUpContainer {
+  display: flex;
+  justify-content: center;
+}
+.hurryCard1 {
+  width: 22rem;
+  background-color: #cccea7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 0;
+  margin-right: 0.5rem;
+}
+.hurryCard2 {
+  width: 22rem;
+  background-color: #d6bebe;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 0;
+  margin-left: 0.5rem;
+}
+.hurryText {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0.5rem 0;
+}
+.percentOff {
+  font-size: 36px;
+  margin: 0.5rem 0;
+}
+.shopNow {
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  background-color: #ffffff00;
+  margin: 0.5rem 0;
+}
+
+.provisions {
+  background-color: #f5f4f2;
+  padding: 1rem 8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10rem;
+  position: relative;
+}
+
+.verticalLine {
+  height: 70%;
+  width: 2px;
+  background-color: #ffc7d1;
+}
+
+.newsLetterSection {
+  padding: 4rem 6rem;
+  border-bottom: 1px solid #e0dfde;
+  margin-bottom: 4rem;
+}
+
+.newsletterBox {
+  background: linear-gradient(97.3deg, #ab001e -6.23%, #770015 105.09%);
+  height: 14rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.boxContent {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.subscriptionEmail::placeholder {
+  color: #ffffff;
+}

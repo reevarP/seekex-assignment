@@ -1,0 +1,23 @@
+.fullCard {
+  height: 24rem;
+  width: 30%;
+  overflow: hidden;
+  margin-bottom: 1rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background-color: #dfdfdf;
+  margin: 0.25rem;
+}
+
+.cardLabel {
+  position: absolute;
+  backdrop-filter: blur(10px);
+  height: 4rem;
+  bottom: -3px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
